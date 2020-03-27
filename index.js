@@ -1,4 +1,9 @@
-function threeModTwo() {
-  return 3 % 2;
+function checkDrivingAge(age) {
+  if (age >= 16) {
+    return "You are old enough to drive.";
+  }
+
+  return "Sorry, you are not old enough to drive.";
 }
-console.log(threeModTwo());
+let driver = 15;
+console.log(checkDrivingAge(driver));
