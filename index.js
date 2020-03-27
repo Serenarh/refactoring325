@@ -1,4 +1,4 @@
-function greet() {
-  return "Hello!";
+function threeModTwo() {
+  return 3 % 2;
 }
-console.log(greet());
+console.log(threeModTwo());
